@@ -1,0 +1,1 @@
+Using the speech_recognition library with a microphone involves capturing live audio input from the microphone and then processing it. The listen method captures the audio data, which can then be sent to a speech recognition service, such as Google Cloud Speech-to-Text.
