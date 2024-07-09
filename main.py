@@ -7,7 +7,7 @@ from openai import OpenAI
 
 recognizer=sr.Recognizer()
 engine = pyttsx3.init()
-api_key = 'apikey'
+api_key = '07ae76edad4f4950b91d5eeaf2047d4f' #news apikey
 url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={api_key}"
 def speak(text):
    engine.say(text)
